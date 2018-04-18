@@ -56,6 +56,7 @@ public static void main(String s[])
 //
 //
 Collections.sort(Arrays.asList(3, 2, 1,6), (o1, o2) -> o1.compareTo(o2));
+Collections.sort(Arrays.asList(3, 2, 1,6), (o1, o2) -> o1.compareTo(o2));
 System.out.println("version-2");
 //
 //Stream.of("d", "Z", "b", "p", "n") 
