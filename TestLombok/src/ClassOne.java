@@ -55,7 +55,7 @@ public static void main(String s[])
 //System.out.println(new ClassOne().toString());
 //
 //
-//Collections.sort(Arrays.asList(3, 2, 1), (o1, o2) -> o1.compareTo(o2));
+Collections.sort(Arrays.asList(3, 2, 1), (o1, o2) -> o1.compareTo(o2));
 //
 //Stream.of("d", "Z", "b", "p", "n") 
 //.map(String::toUpperCase)
