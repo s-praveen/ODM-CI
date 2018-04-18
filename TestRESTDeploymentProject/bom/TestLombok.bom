@@ -1,0 +1,29 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/TestRESTDeploymentProject//TestLombok"
+property uuid "114e6dc5-3361-4f88-a97b-169da1ef23c5"
+
+public abstract class ClassOne
+{
+    public java.lang.Boolean booOne;
+    public int intOne;
+    public string stringOne;
+    public ClassOne();
+    public boolean equals(object arg);
+    public abstract string getString(string arg)
+                throws java.io.IOException;
+    public int hashCode();
+    public static void main(java.lang.String[] arg);
+    public abstract object newInstance(java.lang.Class arg)
+                throws java.lang.Exception;
+    public string toString();
+}
+
+public abstract class UnsafeAllocator
+{
+    public UnsafeAllocator();
+    public static UnsafeAllocator create();
+    public abstract object newInstance(java.lang.Class arg)
+                throws java.lang.Exception;
+}
+

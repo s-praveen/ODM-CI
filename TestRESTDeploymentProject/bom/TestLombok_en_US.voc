@@ -1,0 +1,14 @@
+# Vocabulary Properties
+uuid = 9d02725d-cbdb-43a2-aebc-aaf957fa5cb6
+
+# ClassOne
+ClassOne#concept.label = class one
+ClassOne.booOne#phrase.action = make it {boo one} that {this} is boo one
+ClassOne.booOne#phrase.navigation = {this} is boo one
+ClassOne.intOne#phrase.action = set the int one of {this} to {int one}
+ClassOne.intOne#phrase.navigation = {int one} of {this}
+ClassOne.stringOne#phrase.action = set the string one of {this} to {string one}
+ClassOne.stringOne#phrase.navigation = {string one} of {this}
+
+# UnsafeAllocator
+UnsafeAllocator#concept.label = unsafe allocator
