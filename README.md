@@ -1,2 +1,2 @@
 # ODM-CI
-IBM ODM rules CI project with jenkins.
+IBM ODM rules CI project with jenkins.thanks
